@@ -1,7 +1,8 @@
+import Omiii from "./assets/omii"
 
 function App() {
   return (
-    <h1>Hello World </h1>  
+    <Omiii/> 
   )
 }
 

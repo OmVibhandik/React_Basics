@@ -10,7 +10,7 @@
 
 function Omiii(){
     return(
-        <h1>Temp is Here</h1>
+        <h1>Helllo omiiii</h1>
     )
 }
 

@@ -8,9 +8,18 @@ function App() {
   let [counter,setCounter] = useState(5)  // useState hook
 
   const addValue = ()=>{
-    counter++;
+    // counter++;                   counter = 5
     // console.log(counter)
-    setCounter(counter)
+
+    setCounter(counter+1)           // counter = counter+1 = 6
+    setCounter(counter+1)           // counter = counter+1 = 6 
+    setCounter(counter+1)           // As we know fibre(virualDOm) send changes in batches 
+    setCounter(counter+1)
+    // IMP Interview Question
+    setCounter(preCounter=>preCounter+1)       // Here we are using the previous value of 
+    setCounter(preCounter=>preCounter+1)       // counter from setCounter CallBack funtion
+    setCounter(preCounter=>preCounter+1)       // counter = counter+3 = 9
+    
   }
 
   const subValue = ()=>{

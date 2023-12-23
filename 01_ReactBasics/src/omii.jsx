@@ -10,7 +10,7 @@
 
 function Omiii(){
     return(
-        <h1>Helllo omiiii</h1>
+        <h1>Helllo omiii</h1>
     )
 }
 

@@ -10,7 +10,7 @@ function Footer() {
                     <Link to="/" className="flex items-center">
                         <img
                             src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                            className="mr-3 h-16"
+                            className="mr-3 h-15"
                             alt="Logo"
                         />
                     </Link>
